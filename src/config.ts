@@ -35,6 +35,38 @@ Do NOT use for translation -- use text_translate. Do NOT use for sentiment analy
         },
         required: ["text"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "topLanguages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "language": {
+                    "type": "string"
+                  },
+                  "confidence": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "scripts": {
+              "type": "object",
+              "description": "Script detection results"
+            },
+            "charCount": {
+              "type": "number"
+            },
+            "wordCount": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "topLanguages"
+          ]
+        },
     },
   ],
 };
