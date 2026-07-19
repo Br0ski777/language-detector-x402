@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_detect_language` | POST | `/api/detect` | $0.002 | Detect the language of input text with confidence scores and script identification |
+| `text_detect_language` | POST | `/api/detect` | $0.005 | Detect the language of input text with confidence scores and script identification |
 
 ### `text_detect_language`
 
