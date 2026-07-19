@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/detect",
-      price: "$0.002",
+      price: "$0.005",
       description: "Detect the language of input text with confidence scores and script identification",
       toolName: "text_detect_language",
       toolDescription:
